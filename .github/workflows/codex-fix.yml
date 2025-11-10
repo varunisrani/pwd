@@ -77,8 +77,8 @@ jobs:
           # Output file for Codex results
           output-file: codex-output.md
 
-          # Configure Codex for workspace write access
-          sandbox: workspace-write
+          # Configure Codex for full access (required for network/gh CLI)
+          sandbox: danger-full-access
 
   unauthorized-message:
     # Post message for unauthorized users

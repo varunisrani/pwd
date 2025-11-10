@@ -77,9 +77,9 @@ jobs:
           # Output file for Codex results
           output-file: codex-output.md
 
-          # Configure Codex for read-only access
+          # Configure Codex for network access (required for gh CLI)
           safety-strategy: drop-sudo
-          sandbox: read-only
+          sandbox: danger-full-access
 
   unauthorized-message:
     # Post message for unauthorized users
