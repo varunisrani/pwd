@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "pydantic-ai-research-email"
 version = "1.0.0"
 description = "Multi-agent PydanticAI system for research and email automation"
-authors = [{name = "Developer", email = "dev@example.com"}]
+authors = [{name = "Varun Israni", email = "varunisrani@example.com"}]
 license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.9"
