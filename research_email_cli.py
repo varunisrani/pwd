@@ -5,6 +5,7 @@ Beautiful streaming CLI for Research & Email Agent using Rich library.
 import asyncio
 import sys
 from rich.console import Console
+from rich.markdown import Markdown
 from rich.panel import Panel
 from rich.prompt import Prompt
 from rich.text import Text
